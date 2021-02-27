@@ -1,0 +1,4 @@
+packer_cache
+builds/.vagrant
+builds/securing-the-cloud-amd64-desktop.box
+output-virtualbox-iso
