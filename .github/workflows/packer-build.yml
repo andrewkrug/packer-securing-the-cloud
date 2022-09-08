@@ -24,7 +24,7 @@ jobs:
         run: sudo ln -s /usr/lib/virtualbox/VBoxManage /usr/local/bin/VBoxManage
       
       - name: Run packer validate
-        run: packer validate -syntax-only .
+        run: packer validate -syntax-only kali-linux-2.0-amd64-desktop.json
 
       - name: Run packer validate
         run: packer build -color=false -on-error=abort kali-linux-2.0-amd64-desktop.json
