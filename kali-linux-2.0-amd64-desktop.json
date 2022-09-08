@@ -2,9 +2,9 @@
   "variables": {
     "vm_name": "securing-the-cloud-ws",
     "disk_size": "40960",
-    "iso_checksum": "c55dcb0280f318606ebee69825defc346ef269507db0379318455db442468682",
-    "iso_checksum_type": "sha1",
-    "iso_url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-installer-netinst-amd64.iso",
+    "iso_checksum": "ae977f455924f0268fac437d66e643827089b6f8dc5d76324d6296eb11d997fd",
+    "iso_checksum_type": "sha256",
+    "iso_url": "https://cdimage.kali.org/kali-2022.3/kali-linux-2022.3-installer-amd64.iso",
     "box_name" : "securing-the-cloud-amd64-desktop.box",
     "box_desc" : "Securing the Cloud Workstation"
   },
