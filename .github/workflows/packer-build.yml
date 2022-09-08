@@ -19,6 +19,9 @@ jobs:
       
       - name: Extend Path
         run: sudo ln -s /usr/lib/virtualbox/VBoxManage /usr/local/bin/VBoxManage
+      
+      - name: TMP
+        run: sudo find / -iname VBoxManage
 
       # fix backwards incompatibilities in template
       - name: Fix Template
