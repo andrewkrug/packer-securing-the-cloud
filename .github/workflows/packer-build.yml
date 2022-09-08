@@ -18,7 +18,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install virtualbox -y
       
       - name: Extend Path
-        run: sudo ln -s /usr/local/bin/VBoxManage /usr/local/bin/vboxmanage
+        run: sudo ln -s /usr/lib/virtualbox/VBoxManage /usr/local/bin/VBoxManage
 
       # fix backwards incompatibilities in template
       - name: Fix Template
